@@ -62,8 +62,8 @@ S.E.R.E.N.A es una aplicación web diseñada para gestionar el registro y evalua
 
 ## Autor
 
-Aisor Anaya Arias
-Juan Gomez
+- Aisor Anaya Arias
+- Juan Gomez
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.
