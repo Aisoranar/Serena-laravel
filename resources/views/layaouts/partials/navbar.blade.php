@@ -1,3 +1,15 @@
+<style>
+  body {
+    background: linear-gradient(135deg, #3175beac, #2c304c);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-box-direction: normal;
+    margin: 0;
+    overflow: hidden; /* Evita el desbordamiento del contenido fuera del cuerpo */
+}
+</style>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/home">Inicio</a>
@@ -46,7 +58,7 @@
                   {{ ucfirst(auth()->user()->name ?? auth()->user()->username) }}
               </a>
               <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Perfil</a></li>
+                  <li><a class="dropdown-item" href="/profile">Perfil</a></li>
                   <li><a class="dropdown-item" href="/logout">Cerrar Sesión</a></li>
               </ul>
           </li>
